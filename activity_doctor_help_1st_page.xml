@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#dc92b7"
+    tools:context=".doctor_help_1st_page">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="116dp"
+        android:background="#b43574"
+        android:text="গর্ভাবস্থার বিপদ চিহ্ন"
+        android:textColor="#f7f1f4"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="202dp"
+        android:background="#b43574"
+        android:text="গর্ভাবস্থার কি কি করা উচিত নয় "
+        android:textColor="#f7f1f4"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="191dp"
+        android:background="#b43574"
+        android:text="গর্ভাবস্থার কি কি করা উচিত"
+        android:textColor="#f7f1f4"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="123dp"
+        android:background="#b43574"
+        android:text=" ডাক্তারের সাথে যোগাযোগ "
+        android:textColor="#f7f1f4"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
